@@ -14,10 +14,12 @@
 		122BCEAE2B6A3C5E00B4884C /* ChatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BCEAD2B6A3C5E00B4884C /* ChatCollectionViewCell.swift */; };
 		122BCEB32B6A696500B4884C /* ChatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122BCEB12B6A696500B4884C /* ChatViewCell.swift */; };
 		122BCEB42B6A696500B4884C /* ChatViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122BCEB22B6A696500B4884C /* ChatViewCell.xib */; };
+		124312B02B7B96B600C19EA9 /* ChatSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124312AF2B7B96B600C19EA9 /* ChatSocketManager.swift */; };
 		1256E7CB2B65A87B00E5BD67 /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256E7CA2B65A87B00E5BD67 /* DefaultCell.swift */; };
 		125FCC312B5FB20C00C42263 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125FCC302B5FB20C00C42263 /* CommunityViewController.swift */; };
 		125FCC3A2B60EBCA00C42263 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125FCC382B60EBCA00C42263 /* MenuViewCell.swift */; };
 		125FCC3B2B60EBCA00C42263 /* MenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125FCC392B60EBCA00C42263 /* MenuViewCell.xib */; };
+		127A03862BAD7481008A8119 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 127A03852BAD7481008A8119 /* Starscream */; };
 		127EFDD92B44422400B536A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EFDD82B44422400B536A9 /* AppDelegate.swift */; };
 		127EFDDB2B44422400B536A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EFDDA2B44422400B536A9 /* SceneDelegate.swift */; };
 		127EFDDD2B44422400B536A9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EFDDC2B44422400B536A9 /* TabViewController.swift */; };
@@ -28,10 +30,21 @@
 		127EFDF52B44669C00B536A9 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EFDF42B44669C00B536A9 /* HomeCollectionViewController.swift */; };
 		127EFDFC2B45691600B536A9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127EFDFA2B45691600B536A9 /* PostCell.swift */; };
 		127EFDFD2B45691600B536A9 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 127EFDFB2B45691600B536A9 /* PostCell.xib */; };
+		127FC21A2BAC285E00795F5A /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 127FC2192BAC285E00795F5A /* images.jpg */; };
+		127FC21C2BAC288300795F5A /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 127FC21B2BAC288300795F5A /* images-1.jpg */; };
+		129195D22B6E968E008FFB66 /* RecieverMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129195D02B6E968E008FFB66 /* RecieverMessageViewCell.swift */; };
+		129195D32B6E968E008FFB66 /* RecieverMessageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 129195D12B6E968E008FFB66 /* RecieverMessageViewCell.xib */; };
 		129B91292B56C5270079CC0C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B91282B56C5270079CC0C /* NotificationViewController.swift */; };
 		129B912B2B56D1440079CC0C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B912A2B56D1440079CC0C /* SearchViewController.swift */; };
 		129B912D2B57CE200079CC0C /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B912C2B57CE200079CC0C /* PostManager.swift */; };
 		129B912F2B57CFF80079CC0C /* PostModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B912E2B57CFF80079CC0C /* PostModal.swift */; };
+		12CB10B62BA9C8A000ED6372 /* PostData.json in Resources */ = {isa = PBXBuildFile; fileRef = 12CB10B52BA9C8A000ED6372 /* PostData.json */; };
+		12D476112B6BB01600C1B1A3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D476102B6BB01600C1B1A3 /* ChatViewController.swift */; };
+		12D476142B6BB26700C1B1A3 /* SenderMessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D476122B6BB26700C1B1A3 /* SenderMessageViewCell.swift */; };
+		12D476152B6BB26700C1B1A3 /* SenderMessageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D476132B6BB26700C1B1A3 /* SenderMessageViewCell.xib */; };
+		12D4761A2B6BBE9200C1B1A3 /* messageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D476192B6BBE9200C1B1A3 /* messageModal.swift */; };
+		12D4761C2B6BBED200C1B1A3 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D4761B2B6BBED200C1B1A3 /* ChatManager.swift */; };
+		12F55FD32BAACBE50048B3B8 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F55FD22BAACBE50048B3B8 /* download.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +55,7 @@
 		122BCEAD2B6A3C5E00B4884C /* ChatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCollectionViewCell.swift; sourceTree = "<group>"; };
 		122BCEB12B6A696500B4884C /* ChatViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewCell.swift; sourceTree = "<group>"; };
 		122BCEB22B6A696500B4884C /* ChatViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewCell.xib; sourceTree = "<group>"; };
+		124312AF2B7B96B600C19EA9 /* ChatSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSocketManager.swift; sourceTree = "<group>"; };
 		1256E7CA2B65A87B00E5BD67 /* DefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
 		125FCC302B5FB20C00C42263 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		125FCC382B60EBCA00C42263 /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
@@ -58,10 +72,21 @@
 		127EFDF42B44669C00B536A9 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		127EFDFA2B45691600B536A9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		127EFDFB2B45691600B536A9 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		127FC2192BAC285E00795F5A /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		127FC21B2BAC288300795F5A /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		129195D02B6E968E008FFB66 /* RecieverMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieverMessageViewCell.swift; sourceTree = "<group>"; };
+		129195D12B6E968E008FFB66 /* RecieverMessageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecieverMessageViewCell.xib; sourceTree = "<group>"; };
 		129B91282B56C5270079CC0C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		129B912A2B56D1440079CC0C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		129B912C2B57CE200079CC0C /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		129B912C2B57CE200079CC0C /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostManager.swift; path = "../../../../Users/chetansanwariya/Desktop/Development/iOS/teaching Swift/Apps/Peers/Peers/Modal/Home/Post/PostManager.swift"; sourceTree = DEVELOPER_DIR; };
 		129B912E2B57CFF80079CC0C /* PostModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModal.swift; sourceTree = "<group>"; };
+		12CB10B52BA9C8A000ED6372 /* PostData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PostData.json; sourceTree = "<group>"; };
+		12D476102B6BB01600C1B1A3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		12D476122B6BB26700C1B1A3 /* SenderMessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMessageViewCell.swift; sourceTree = "<group>"; };
+		12D476132B6BB26700C1B1A3 /* SenderMessageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderMessageViewCell.xib; sourceTree = "<group>"; };
+		12D476192B6BBE9200C1B1A3 /* messageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageModal.swift; sourceTree = "<group>"; };
+		12D4761B2B6BBED200C1B1A3 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		12F55FD22BAACBE50048B3B8 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127A03862BAD7481008A8119 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +104,8 @@
 		122BCEB02B6A68F600B4884C /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				122BCEAD2B6A3C5E00B4884C /* ChatCollectionViewCell.swift */,
-				122BCEB12B6A696500B4884C /* ChatViewCell.swift */,
-				122BCEB22B6A696500B4884C /* ChatViewCell.xib */,
+				12CD6D372B6E329700A84F49 /* MessagePage */,
+				12CD6D362B6E328C00A84F49 /* ChatPage */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -107,9 +132,9 @@
 		125FCC2F2B5FB18E00C42263 /* Community Page */ = {
 			isa = PBXGroup;
 			children = (
+				125FCC302B5FB20C00C42263 /* CommunityViewController.swift */,
 				1256E7C72B65A51900E5BD67 /* Main */,
 				1256E7C62B65A18000E5BD67 /* Menu */,
-				125FCC302B5FB20C00C42263 /* CommunityViewController.swift */,
 			);
 			path = "Community Page";
 			sourceTree = "<group>";
@@ -133,10 +158,13 @@
 		127EFDD72B44422400B536A9 /* Peers */ = {
 			isa = PBXGroup;
 			children = (
+				127FC2192BAC285E00795F5A /* images.jpg */,
+				12F55FD22BAACBE50048B3B8 /* download.jpg */,
+				127FC21B2BAC288300795F5A /* images-1.jpg */,
 				127EFDE92B44422600B536A9 /* Info.plist */,
-				127EFDF12B4454FE00B536A9 /* Controller */,
-				127EFDF02B4454F800B536A9 /* View */,
 				127EFDEF2B4454EB00B536A9 /* Modal */,
+				127EFDF02B4454F800B536A9 /* View */,
+				127EFDF12B4454FE00B536A9 /* Controller */,
 				127EFDF32B4455FC00B536A9 /* Delegate */,
 				127EFDF22B4455AA00B536A9 /* Supporting Files */,
 			);
@@ -146,9 +174,9 @@
 		127EFDEF2B4454EB00B536A9 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				12D476172B6BBE4900C1B1A3 /* Community */,
+				12D476162B6BBE2C00C1B1A3 /* Home */,
 				127EFDE12B44422400B536A9 /* Peers.xcdatamodeld */,
-				129B912C2B57CE200079CC0C /* PostManager.swift */,
-				129B912E2B57CFF80079CC0C /* PostModal.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -157,11 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				127EFDDE2B44422400B536A9 /* Main.storyboard */,
-				127EFDFA2B45691600B536A9 /* PostCell.swift */,
-				127EFDFB2B45691600B536A9 /* PostCell.xib */,
-				121627202B51535600C166B3 /* MiniReelCell.swift */,
-				121627212B51535600C166B3 /* MiniReelCell.xib */,
-				121627262B52CEC400C166B3 /* MiniReelCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,9 +192,9 @@
 		127EFDF12B4454FE00B536A9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				12CD6D322B6E320300A84F49 /* Home Page */,
 				125FCC2F2B5FB18E00C42263 /* Community Page */,
 				127EFDDC2B44422400B536A9 /* TabViewController.swift */,
-				127EFDF42B44669C00B536A9 /* HomeCollectionViewController.swift */,
 				129B91282B56C5270079CC0C /* NotificationViewController.swift */,
 				129B912A2B56D1440079CC0C /* SearchViewController.swift */,
 			);
@@ -196,6 +219,93 @@
 			path = Delegate;
 			sourceTree = "<group>";
 		};
+		12CD6D322B6E320300A84F49 /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				127EFDF42B44669C00B536A9 /* HomeCollectionViewController.swift */,
+				12CD6D342B6E324100A84F49 /* Mini Reel */,
+				12CD6D332B6E322E00A84F49 /* Post */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		12CD6D332B6E322E00A84F49 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				127EFDFB2B45691600B536A9 /* PostCell.xib */,
+				127EFDFA2B45691600B536A9 /* PostCell.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		12CD6D342B6E324100A84F49 /* Mini Reel */ = {
+			isa = PBXGroup;
+			children = (
+				121627212B51535600C166B3 /* MiniReelCell.xib */,
+				121627202B51535600C166B3 /* MiniReelCell.swift */,
+				121627262B52CEC400C166B3 /* MiniReelCollectionViewCell.swift */,
+			);
+			path = "Mini Reel";
+			sourceTree = "<group>";
+		};
+		12CD6D352B6E326E00A84F49 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				129B912C2B57CE200079CC0C /* PostManager.swift */,
+				129B912E2B57CFF80079CC0C /* PostModal.swift */,
+				12CB10B52BA9C8A000ED6372 /* PostData.json */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		12CD6D362B6E328C00A84F49 /* ChatPage */ = {
+			isa = PBXGroup;
+			children = (
+				122BCEAD2B6A3C5E00B4884C /* ChatCollectionViewCell.swift */,
+				122BCEB12B6A696500B4884C /* ChatViewCell.swift */,
+				122BCEB22B6A696500B4884C /* ChatViewCell.xib */,
+			);
+			path = ChatPage;
+			sourceTree = "<group>";
+		};
+		12CD6D372B6E329700A84F49 /* MessagePage */ = {
+			isa = PBXGroup;
+			children = (
+				12D476132B6BB26700C1B1A3 /* SenderMessageViewCell.xib */,
+				12D476122B6BB26700C1B1A3 /* SenderMessageViewCell.swift */,
+				12D476102B6BB01600C1B1A3 /* ChatViewController.swift */,
+				129195D02B6E968E008FFB66 /* RecieverMessageViewCell.swift */,
+				129195D12B6E968E008FFB66 /* RecieverMessageViewCell.xib */,
+			);
+			path = MessagePage;
+			sourceTree = "<group>";
+		};
+		12D476162B6BBE2C00C1B1A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				12CD6D352B6E326E00A84F49 /* Post */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		12D476172B6BBE4900C1B1A3 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				12D476182B6BBE7600C1B1A3 /* Chat */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		12D476182B6BBE7600C1B1A3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				12D476192B6BBE9200C1B1A3 /* messageModal.swift */,
+				12D4761B2B6BBED200C1B1A3 /* ChatManager.swift */,
+				124312AF2B7B96B600C19EA9 /* ChatSocketManager.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +322,9 @@
 			dependencies = (
 			);
 			name = Peers;
+			packageProductDependencies = (
+				127A03852BAD7481008A8119 /* Starscream */,
+			);
 			productName = Peers;
 			productReference = 127EFDD52B44422400B536A9 /* Peers.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +353,9 @@
 				Base,
 			);
 			mainGroup = 127EFDCC2B44422400B536A9;
+			packageReferences = (
+				127A03842BAD7480008A8119 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = 127EFDD62B44422400B536A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,10 +373,16 @@
 				127EFDFD2B45691600B536A9 /* PostCell.xib in Resources */,
 				125FCC3B2B60EBCA00C42263 /* MenuViewCell.xib in Resources */,
 				122BCEB42B6A696500B4884C /* ChatViewCell.xib in Resources */,
+				12F55FD32BAACBE50048B3B8 /* download.jpg in Resources */,
 				127EFDE82B44422600B536A9 /* LaunchScreen.storyboard in Resources */,
+				12D476152B6BB26700C1B1A3 /* SenderMessageViewCell.xib in Resources */,
+				127FC21C2BAC288300795F5A /* images-1.jpg in Resources */,
+				129195D32B6E968E008FFB66 /* RecieverMessageViewCell.xib in Resources */,
+				12CB10B62BA9C8A000ED6372 /* PostData.json in Resources */,
 				127EFDE52B44422600B536A9 /* Assets.xcassets in Resources */,
 				121627232B51535600C166B3 /* MiniReelCell.xib in Resources */,
 				127EFDE02B44422400B536A9 /* Main.storyboard in Resources */,
+				127FC21A2BAC285E00795F5A /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,11 +399,17 @@
 				122BCEB32B6A696500B4884C /* ChatViewCell.swift in Sources */,
 				127EFDE32B44422400B536A9 /* Peers.xcdatamodeld in Sources */,
 				127EFDD92B44422400B536A9 /* AppDelegate.swift in Sources */,
+				124312B02B7B96B600C19EA9 /* ChatSocketManager.swift in Sources */,
+				12D4761A2B6BBE9200C1B1A3 /* messageModal.swift in Sources */,
 				127EFDF52B44669C00B536A9 /* HomeCollectionViewController.swift in Sources */,
 				121627272B52CEC400C166B3 /* MiniReelCollectionViewCell.swift in Sources */,
 				129B91292B56C5270079CC0C /* NotificationViewController.swift in Sources */,
 				127EFDDB2B44422400B536A9 /* SceneDelegate.swift in Sources */,
 				122924E02B67B0B4004E23C8 /* MenuViewController.swift in Sources */,
+				12D476112B6BB01600C1B1A3 /* ChatViewController.swift in Sources */,
+				12D4761C2B6BBED200C1B1A3 /* ChatManager.swift in Sources */,
+				129195D22B6E968E008FFB66 /* RecieverMessageViewCell.swift in Sources */,
+				12D476142B6BB26700C1B1A3 /* SenderMessageViewCell.swift in Sources */,
 				1256E7CB2B65A87B00E5BD67 /* DefaultCell.swift in Sources */,
 				129B912D2B57CE200079CC0C /* PostManager.swift in Sources */,
 				125FCC312B5FB20C00C42263 /* CommunityViewController.swift in Sources */,
@@ -511,6 +639,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		127A03842BAD7480008A8119 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		127A03852BAD7481008A8119 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 127A03842BAD7480008A8119 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		127EFDE12B44422400B536A9 /* Peers.xcdatamodeld */ = {

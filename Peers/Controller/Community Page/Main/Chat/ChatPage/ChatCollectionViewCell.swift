@@ -7,8 +7,13 @@
 
 import UIKit
 
+protocol CustomCollectionViewCellDelegate : AnyObject {
+    func didSelectTableCell()
+}
+
 class ChatCollectionViewCell: UICollectionViewCell , UITableViewDataSource, UITableViewDelegate {
     static let identifier = "ChatCollectionViewCell"
+    weak var delegate : CustomCollectionViewCellDelegate?
     
     let tableView : UITableView = {
         let tableView = UITableView()
@@ -36,7 +41,7 @@ class ChatCollectionViewCell: UICollectionViewCell , UITableViewDataSource, UITa
         tableView.frame = contentView.bounds
     }
     
-    //MARK: - tableViewDelegate Methods
+    //MARK: - tableViewDataSource Methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
@@ -44,6 +49,18 @@ class ChatCollectionViewCell: UICollectionViewCell , UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: "chatViewCell") as! ChatViewCell
         return cell
     }
+    
+    //MARK: - tableViewDelegate Methods
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //Method to perform the seige in the Community view Controller
+        delegate?.didSelectTableCell()
+        
+    }
+    
+    
+    
+    //MARK: - Methods altering the size of the Cell
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 72.00

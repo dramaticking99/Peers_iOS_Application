@@ -56,4 +56,24 @@ struct PostManager {
         task.resume()
 
     }
+    
+    
+    func getPost(user_Id: String) -> PostModal?{
+        if let path = Bundle.main.path(forResource: "PostData", ofType: "json"){
+            do{
+                let data = try Data(contentsOf: URL(filePath: path), options: .mappedIfSafe)
+                
+                let decoder = JSONDecoder()
+                let post = try decoder.decode(PostModal.self, from: data)
+                print(post.post_Id)
+                
+                return post
+            } catch {
+                print("error Decoding the JSON Data")
+                
+                return nil
+            }
+        }
+        return nil
+    }
 }

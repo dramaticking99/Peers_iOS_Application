@@ -13,6 +13,12 @@ class CommunityViewController: UICollectionViewController, UICollectionViewDeleg
     let menuController = MenuViewController(collectionViewLayout: UICollectionViewFlowLayout())
     let colorArray : [UIColor] = [.red,.yellow,.green]
     
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let x = scrollView.contentOffset.x
+        let offset = x/3
+        menuController.menuBar.transform = CGAffineTransform(translationX: offset, y: 0)
+    }
+    
 
     override func viewDidLoad() {
     
@@ -28,6 +34,7 @@ class CommunityViewController: UICollectionViewController, UICollectionViewDeleg
 
         collectionView.backgroundColor = .systemBackground
         collectionView.isPagingEnabled = true
+        
                 
         self.collectionView.register(DefaultCell.self,
                                      forCellWithReuseIdentifier: DefaultCell.indentifier)
@@ -80,7 +87,8 @@ class CommunityViewController: UICollectionViewController, UICollectionViewDeleg
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if(indexPath.item == 0){
-            let chatCell = collectionView.dequeueReusableCell(withReuseIdentifier: ChatCollectionViewCell.identifier, for: indexPath)
+            let chatCell = collectionView.dequeueReusableCell(withReuseIdentifier: ChatCollectionViewCell.identifier, for: indexPath) as! ChatCollectionViewCell
+            chatCell.delegate = self
             return chatCell
         }
         let DefaultCell = collectionView.dequeueReusableCell(withReuseIdentifier: "defaultCell" , for: indexPath)
@@ -95,10 +103,22 @@ class CommunityViewController: UICollectionViewController, UICollectionViewDeleg
     //MARK: - Methods to alter the size of the cell
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            let height = view.frame.height - 60 - 44 - 115
+            let height = view.frame.height - 60 - 44 - 115 - 100
             let width = view.frame.width
             return CGSize(width: width, height: height)
         
     }
 
 }
+
+extension CommunityViewController : CustomCollectionViewCellDelegate {
+    func didSelectTableCell() {
+        performSegue(withIdentifier: "chatSegue" , sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination
+        destinationVC.hidesBottomBarWhenPushed = true
+    }
+}
+
+

@@ -65,13 +65,13 @@ class HomeCollectionViewController: UICollectionViewController, UICollectionView
         
         if indexPath.section == 1 {
             // First section
-            width = 360
+            width = collectionView.frame.width
             height = 250
             return CGSizeMake(width, height)
         } else {
-            // Second section
-            width = 360
-            height = 342
+            // Second section and the first post
+            width = collectionView.frame.width
+            height = collectionView.frame.height/3
             return CGSizeMake(width, height)
         }
     }
